@@ -1,0 +1,3 @@
+include ':skulibrary'
+include ':app'
+rootProject.name = "ProductSku"

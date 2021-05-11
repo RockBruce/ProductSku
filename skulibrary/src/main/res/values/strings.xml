@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">SkuSelector</string>
+
+    <string name="comm_price_format">¥ %s</string>
+
+    <string name="product_detail">商品详情</string>
+    <string name="product_detail_sku_quantity">购买数量</string>
+    <string name="product_detail_sku_confirm">确定</string>
+    <string name="product_detail_sku_recommend_price">价格：¥%1$s/%2$s</string>
+    <string name="product_detail_sku_stock">(库存:%1$s)</string>
+    <string name="product_detail_sku_quantity_over">购买数量超出最大库存，请修改购买数量</string>
+    <string name="product_detail_sku_quantity_empty">购买数量不能为空</string>
+    <string name="product_detail_sku_add_succeed">商品添加成功，请前往进货单查看</string>
+
+    <string name="product"> {
+        "proxyStatus": 1,
+        "supplierId": "20160623095244155-45642425-b6e9-4a2f-a5e8-62c6006f38e3",
+        "deliveryTime": 0,
+        "imgsJson": {
+        },
+        "isXls": 1,
+        "labelTitle": "LED 其他颜色 亚克力 卧室 书房 北欧简约 个性时尚 铁+亚克力 铁 ",
+        "title": "纳米多 5506 吊灯  LED 其他颜色 亚克力 卧室 书房 北欧简约 个性时尚 铁+亚克力 铁 ",
+        "type": 0,
+        "templateId": "EDS1335892297404907520",
+        "specJson": [
+            {
+                "id": "1335892298138910720",
+                "name": "颜色",
+                "specParams": [
+                    {
+                        "id": "2D1B93024B4C81F7438D4A16DAACD762",
+                        "name": "哑白+砂黑",
+                        "type": 0
+                    }
+                ]
+            },
+            {
+                "id": "1335892298247962624",
+                "name": "规格",
+                "specParams": [
+                    {
+                        "id": "953668F4CAB2737E558DE98ABB29428E",
+                        "name": "D:910,H:470",
+                        "type": 0
+                    },
+                    {
+                        "id": "4DB1BE7505DD2318A5EC3C6FA98F8066",
+                        "name": "D:910,H:610",
+                        "type": 0
+                    },
+                    {
+                        "id": "9348C0D83E22AD134B6EE4FDB3AD7687",
+                        "name": "D:1000,H:500",
+                        "type": 0
+                    }
+                ]
+            },
+            {
+                "id": "1335892298256351232",
+                "name": "光源数量",
+                "specParams": [
+                    {
+                        "id": "7448BCBA978BF1C873A2D84F93323999",
+                        "name": "LED",
+                        "type": 0
+                    }
+                ]
+            }
+        ],
+        "saleAuth": 1,
+        "subTitle": "纳米多 5506 吊灯 ",
+        "model": "5506",
+        "stock": 12,
+        "salePrice": 31.00,
+        "collectId": "",
+        "isShowVideo": 0,
+        "skuJson": [
+            {
+                "mainImg": "https://img.edsmall.com/eds/product/zhu/9aa2b8fe-1165-417a-8b00-39d63858f59f.png",
+                "skuSpecs": [
+                    {
+                        "id": "2D1B93024B4C81F7438D4A16DAACD762",
+                        "name": "哑白+砂黑",
+                        "groupId": "1335892298138910720",
+                        "groupName": "颜色"
+                    },
+                    {
+                        "id": "7448BCBA978BF1C873A2D84F93323999",
+                        "name": "LED",
+                        "groupId": "1335892298256351232",
+                        "groupName": "光源数量"
+                    },
+                    {
+                        "id": "9348C0D83E22AD134B6EE4FDB3AD7687",
+                        "name": "D:1000,H:500",
+                        "groupId": "1335892298247962624",
+                        "groupName": "规格"
+                    }
+                ],
+                "salePrice": 50.00,
+                "isSale": 0,
+                "saleable": 1,
+                "model": "5506--8",
+                "title": "纳米多北欧简约吊灯5506--8",
+                "stock": 2,
+                "skuId": "1335893097908797440",
+                "productPrice": 1699.0,
+                "moq": 1
+            },
+            {
+                "mainImg": "https://img.edsmall.com/eds/product/zhu/0ff8ddf8-cc38-498a-aba2-e8171390a1d8.png",
+                "skuSpecs": [
+                    {
+                        "id": "2D1B93024B4C81F7438D4A16DAACD762",
+                        "name": "哑白+砂黑",
+                        "groupId": "1335892298138910720",
+                        "groupName": "颜色"
+                    },
+                    {
+                        "id": "7448BCBA978BF1C873A2D84F93323999",
+                        "name": "LED",
+                        "groupId": "1335892298256351232",
+                        "groupName": "光源数量"
+                    },
+                    {
+                        "id": "953668F4CAB2737E558DE98ABB29428E",
+                        "name": "D:910,H:470",
+                        "groupId": "1335892298247962624",
+                        "groupName": "规格"
+                    }
+                ],
+                "salePrice": 31.00,
+                "isSale": 0,
+                "saleable": 1,
+                "model": "5506---4",
+                "title": "纳米多北欧简约吊灯5506---4",
+                "stock": 5,
+                "skuId": "1335893097908797441",
+                "productPrice": 1066.0,
+                "moq": 1
+            },
+            {
+                "mainImg": "https://img.edsmall.com/eds/product/zhu/18a80dbf-7444-4a96-96e8-d0fc2407f425.png",
+                "skuSpecs": [
+                    {
+                        "id": "2D1B93024B4C81F7438D4A16DAACD762",
+                        "name": "哑白+砂黑",
+                        "groupId": "1335892298138910720",
+                        "groupName": "颜色"
+                    },
+                    {
+                        "id": "7448BCBA978BF1C873A2D84F93323999",
+                        "name": "LED",
+                        "groupId": "1335892298256351232",
+                        "groupName": "光源数量"
+                    },
+                    {
+                        "id": "4DB1BE7505DD2318A5EC3C6FA98F8066",
+                        "name": "D:910,H:610",
+                        "groupId": "1335892298247962624",
+                        "groupName": "规格"
+                    }
+                ],
+                "salePrice": 41.00,
+                "isSale": 0,
+                "saleable": 1,
+                "model": "5506--6",
+                "title": "纳米多北欧简约吊灯5506--6",
+                "stock": 5,
+                "skuId": "1335893097908797442",
+                "productPrice": 1398.0,
+                "moq": 1
+            }
+        ],
+        "brandId": "20160623095418017CFCC90C2-62D4-4C7A-AAA9-49677EAAF55B",
+        "factoryVideo": null,
+        "shareUrl": "http://shop-h5-pre.edsmall.com/sands/goodsDetail?spuId=19752",
+        "spuId": "19752",
+        "productPrice": 1066.0,
+        "collectStatus": 0
+    }</string>
+    <!--<string name="product">{\"id\":\"101\",\"name\":\"羊毛呢2017秋冬装新款女装韩版棉服宽松棉袄处理短款棉衣外套反季\",\"status\":\"1\",\"mainImage\":\"https://img.alicdn.com/bao/uploaded/i3/1754317604/TB1H1DViesAV1JjSZFsXXadZXXa_!!0-item_pic.jpg_b.jpg\",\"sellingPrice\":26800,\"originPrice\":36800,\"currencyUnit\":\"¥\",\"measurementUnit\":\"件\",\"saleQuantity\":1335,\"stockQuantity\":10998,\"medias\":[\"https://img.alicdn.com/imgextra/i3/1754317604/TB2UkuShvBNTKJjy1zdXXaScpXa_!!1754317604.jpg\",\"https://img.alicdn.com/imgextra/i4/1754317604/TB2JNyYhvBNTKJjSszeXXcu2VXa_!!1754317604.jpg\",\"https://img.alicdn.com/imgextra/i4/1754317604/TB2ZFJxiaagSKJjy0FhXXcrbFXa_!!1754317604.jpg\",\"https://img.alicdn.com/imgextra/i3/1754317604/TB2.ohtijihSKJjy0FfXXbGzFXa_!!1754317604.jpg\"],\"skus\":[{\"id\":\"1\",\"itemId\":\"101\",\"mainImage\":\"https://img.alicdn.com/imgextra/i3/1754317604/TB2UkuShvBNTKJjy1zdXXaScpXa_!!1754317604.jpg\",\"originPrice\":36800,\"sellingPrice\":26800,\"stockQuantity\":21,\"attributes\":[{\"key\":\"颜色\",\"value\":\"粉色\"},{\"key\":\"尺码\",\"value\":\"S\"}]}]}</string>-->
+</resources>
