@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="true">
+    <!--android:drawable="@drawable/shape_item_selector"-->
+    <item   android:state_selected="true">
+        <!--另一种方案不用提供图片-->
         <shape>
             <corners android:radius="5dp" />
-            <solid android:color="#ff5c5c" />
+            <solid android:color="#ED8787" />
         </shape>
     </item>
     <item android:state_enabled="false">

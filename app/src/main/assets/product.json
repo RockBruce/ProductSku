@@ -155,11 +155,11 @@
         }
       ],
       "salePrice": 50.00,
-      "isSale": 0,
+      "isSale": 8,
       "saleable": 1,
       "model": "5506--8",
       "title": "纳米多北欧简约吊灯5506--8",
-      "stock":5,
+      "stock":25,
       "skuId": "1335893097908797440",
       "productPrice": 1699.0,
       "moq": 4
@@ -194,7 +194,7 @@
       "stock": 8,
       "skuId": "1335893097908797441",
       "productPrice": 1066.0,
-      "moq": 2
+      "moq": 1
     },
     {
       "mainImg": "https://img.edsmall.com/eds/product/zhu/18a80dbf-7444-4a96-96e8-d0fc2407f425.png",

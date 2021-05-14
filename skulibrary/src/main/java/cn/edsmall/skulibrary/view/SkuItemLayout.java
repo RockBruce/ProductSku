@@ -117,6 +117,7 @@ public class SkuItemLayout extends LinearLayout {
         }
 
     }
+
     /**
      * 清空是否可点击，选中状态
      */
@@ -127,6 +128,7 @@ public class SkuItemLayout extends LinearLayout {
             itemView.setEnabled(false);
         }
     }
+
     /**
      * 设置指定属性为可点击状态
      *
@@ -140,6 +142,7 @@ public class SkuItemLayout extends LinearLayout {
             }
         }
     }
+
     /**
      * 设置指定属性为选中状态
      *
@@ -154,6 +157,7 @@ public class SkuItemLayout extends LinearLayout {
             }
         }
     }
+
     private class ItemClickListener implements OnClickListener {
         private int position;
         private SkuItemView view;
@@ -168,8 +172,10 @@ public class SkuItemLayout extends LinearLayout {
             onSkuItemClicked(position, view);
         }
     }
+
     /**
      * 当前属性集合是否有选中项
+     *
      * @return
      */
     public boolean hasSelected() {
@@ -181,21 +187,25 @@ public class SkuItemLayout extends LinearLayout {
         }
         return false;
     }
+
     /**
      * 获取属性名称
+     *
      * @return
      */
     public String getAttributeName() {
         return attributeNameTv.getText().toString();
     }
+
     private void onSkuItemClicked(int position, SkuItemView view) {
         boolean selected = !view.isSelected();
-        Log.e("onSkuItemClicked",selected+"");
+        Log.e("onSkuItemClicked", selected + "");
         SkuAttribute attribute = new SkuAttribute();
         attribute.setGroupName(attributeNameTv.getText().toString());
         attribute.setName(view.getAttributeValue());
         listener.onSelect(position, selected, attribute);
     }
+
     interface OnSkuItemSelectListener {
         void onSelect(int position, boolean select, SkuAttribute attribute);
     }

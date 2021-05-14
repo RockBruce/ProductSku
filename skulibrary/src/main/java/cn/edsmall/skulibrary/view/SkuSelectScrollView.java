@@ -112,7 +112,7 @@ public class SkuSelectScrollView extends SkuMaxHeightScrollView implements SkuIt
     /**
      * 重置所有属性的选中状态
      */
-    private void clearAllLayoutStatus() {
+    public void clearAllLayoutStatus() {
         for (int i = 0; i < skuContainerLayout.getChildCount(); i++) {
             SkuItemLayout itemLayout = (SkuItemLayout) skuContainerLayout.getChildAt(i);
             itemLayout.clearItemViewStatus();
